@@ -1,0 +1,15 @@
+{
+    "name": "xlastx/test-task-enot.io",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xLasTxqq",
+            "email": "xlastx.qq@gmail.com"
+        }
+    ],
+    "require": {}
+}
