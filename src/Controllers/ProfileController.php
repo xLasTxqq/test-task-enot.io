@@ -12,7 +12,7 @@ class ProfileController
     {
         AuthMiddleware::handle();
         $databaseInterface->connection();
-        $sql = "SELECT * FROM users";
+        $sql = "SELECT * FROM exchange_rates";
         $data = $databaseInterface->query($sql);
         Response::success($data);
     }

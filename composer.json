@@ -11,5 +11,10 @@
             "email": "xlastx.qq@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "scripts": {
+        "post-install-cmd": [
+            "php src/Servises/Migration.php"
+        ]
+    }
 }

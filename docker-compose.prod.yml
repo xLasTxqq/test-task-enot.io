@@ -3,12 +3,6 @@ services:
   nginx: 
     ports:
       - 80:80
-      
-  redis:
-    command: 
-     - '--requirepass ${REDIS_PASSWORD}'
-    environment:
-      - REDIS_REPLICATION_MODE=master
 
   database:
     ports:
